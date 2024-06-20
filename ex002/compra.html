@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <style>
+        header 
+        {
+            background-color: #d0cda1;
+            text-align: center;
+        }
+
+        nav 
+        {
+            margin: 20px;
+            text-align: center;
+        }
+
+        nav a 
+        {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #000000;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>DETALHES DA COMPRA</h1>
+        <nav>
+            <a href="index.html">início </a>
+            <span style="color: aliceblue;"> |</span>
+            <a href="forms.html">cadastre-se</a>
+            <span style="color: aliceblue;"> |</span>
+            <a href="galeria.html">mostruário </a>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+
+                <legend>Dados dos detalhes das compras:</legend>
+                <label for="idFlor">Tipo de flor para coroa:</label><br />
+                <select name="Flor" id="idFlor">
+                    <option value="RB">Rosas brancas</option>
+                    <option value="CR">Rosas vermelhas</option>
+                    <option value="GR">Girassóis</option>
+                    <option value="CL">Copo de leite</option>
+                </select>
+                <br /><br />
+                <label for="idCor">Cor do caixão:</label><br />
+                <input type="color" name="Cor" id="idCor" />
+                <br /><br />
+                <label for="idFcaixao">Tipo de flor para colocar dentro do caixão:</label><br />
+                <select name="Flor" id="idFlor">
+                    <option value="RB">Rosas brancas</option>
+                    <option value="RV">Crisântemos</option>
+                    <option value="G">Girassóis</option>
+                    <option value="CL">Copo de leite</option>
+                </select>
+                <br /><br />
+                <p>Informe o tamanho para o caixão:</p>
+                <input type="radio" name="Caixao" id="idCaixP" />
+                <label for="idCaixP">P</label>
+                <input type="radio" name="Caixao" id="idCaixM" />
+                <label for="idCaixM">M</label>
+                <input type="radio" name="Caixao" id="idCaixG" />
+                <label for="idCaixG">G</label>
+                <input type="radio" name="Caixao" id="idCaixO" />
+                <label for="idCaixO">Outro</label>
+                <br /><br />
+                <label for="idTecido">Informe o tipo de tecido para forrar o caixão:</label><br />
+                <input type="text" name="Tecido" id="idTecido">
+            </fieldset>
+        </form>
+    </main>
+
+</body>
+
+</html>

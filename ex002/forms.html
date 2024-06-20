@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <style>
+        header 
+        {
+            background-color: #d0cda1;
+            text-align: center;
+        }
+
+        nav 
+        {
+            margin: 20px;
+            text-align: center;
+        }
+
+        nav a 
+        {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>CADASTRE-SE</h1>
+        <nav>
+            <a href="index.html">início </a>
+            <span style="color: aliceblue;"> |</span>
+            <a href="compra.html">detalhes</a>
+            <span style="color: aliceblue;"> |</span>
+            <a href="galeria.html">mostruário </a>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+
+                <legend>Dados pessoais:</legend>
+                <label for="idNome">Digite seu nome:</label><br />
+                <input type="text" name="Nome" id="idNome" />
+                <br /><br />
+                <label for="idNasc">Data de nascimento:</label><br />
+                <input type="date" name="Nasc" id="idNasc" />
+                <br /><br />
+                <label for="idCPF">Digite seu CPF:</label><br />
+                <input type="number" name="CPF" id="idCPF" />
+                <br /><br />
+                <p>Informe seu gênero:</p>
+                <input type="radio" name="Genero" id="idGeneM">
+                <label for="idGeneM">Masculino</label><br />
+                <input type="radio" name="Genero" id="idGeneF">
+                <label for="idGeneF">Feminino</label><br />
+                <input type="radio" name="Genero" id="idGeneO">
+                <label for="idGeneO">Outro</label>
+                <br /><br />
+                <label for="idEstado">Informe seu estado:</label>
+                <select name="Estado" id="idEstado">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="ES">Espiríto Santo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </select>
+                <br /><br />
+                <label for="idEmail">Digite seu email:</label><br />
+                <input type="email" name="Email" id="idEmail" />
+                <br /><br />
+                <label for="idSenha">Crie uma senha:</label><br />
+                <input type="password" name="Senha" id="idSenha" />
+                <br /><br />
+                <label for="idRsenha">Repita sua senha:</label><br />
+                <input type="password" name="Rsenha" id="idRsenha" />
+                <br /><br />
+                <label for="idIdent">Anexe sua foto de identidade:</label><br />
+                <input type="file" name="Ident" id="idIdent" />
+                <br /><br />
+                <label for="idAvali">Avalie o site de 0 a 10:</label><br />
+                <input type="range" name="Avali" id="idAvali" min="0" max="10" />
+                <br /><br />
+
+            </fieldset>
+    </main>
+
+</body>
+
+</html>
