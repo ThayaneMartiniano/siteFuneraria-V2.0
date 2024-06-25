@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+:root
+/* var pra dar um nome */
+{
+    --tiffanyazul: #B1DBC9;
+    --azulroyal: #002a69;
+    --jasmine: #fbe47a;
+    --bege: #d2d8b3;
+    --cadetecinza: #90a9b7;
+    --preto: #000000;
+    --branco: #ffffff;
+    
+}
+
+body
+{
+    background-color: var(--branco);
+    margin: 10px;
+    border: 10px;
+    padding: 0px 3px 0px 2px ;
+  
+}
+
+p
+{
+    color: var(--preto);
+    text-indent: 15px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+
+}
+
+header
+{
+    background-color: var(--tiffanyazul);
+    text-align: center;
+    color: var(--preto);
+    margin: 0px 0px 10px 0px;
+    padding: 10px ;
+    color: var(--azulroyal);
+
+}
+
+nav
+{
+
+    background-color: var(--cadetecinza);
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border: 5px ;
+    border-radius: 0px;
+
+
+}
+
+nav a 
+{
+    margin: 10px;
+    text-decoration: none;
+    color: var(--preto);
+}
+
+main
+{
+   
+    background-color: var(--branco);
+}
+
+footer
+{
+
+    background-color: var(--azulroyal);
+    color: var(--cadetecinza);
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+    padding: 10px ;
+    border: 5px ;
+    border-radius: 0px;
+    
+}
