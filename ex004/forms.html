@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="d1">
+            <h1 style="color: #9e8900 ;">AL</h1>
+        </div>
+        <div class="d2">
+            <nav>
+                <ul>
+                    <a href="index.html" rel="prev">
+                        <li>início</li>
+                    </a>
+                    <a href="#">
+                        <li>cadastre-se</li>
+                    </a>
+                    <a href="compra.html" rel="next">
+                        <li>detalhes</li>
+                    </a>
+                    <a href="galeria.html">
+                        <li>mostruário</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>CADASTRE-SE</h1>
+        <form>
+            <fieldset>
+
+                <legend>Dados pessoais:</legend>
+                <label for="idNome">Digite seu nome:</label><br />
+                <input type="text" name="Nome" id="idNome" />
+                <br /><br />
+                <label for="idNasc">Data de nascimento:</label><br />
+                <input type="date" name="Nasc" id="idNasc" />
+                <br /><br />
+                <label for="idCPF">Digite seu CPF:</label><br />
+                <input type="number" name="CPF" id="idCPF" />
+                <br /><br />
+                <p>Informe seu gênero:</p>
+                <input type="radio" name="Genero" id="idGeneM">
+                <label for="idGeneM">Masculino</label><br />
+                <input type="radio" name="Genero" id="idGeneF">
+                <label for="idGeneF">Feminino</label><br />
+                <input type="radio" name="Genero" id="idGeneO">
+                <label for="idGeneO">Outro</label>
+                <br /><br />
+                <label for="idEstado">Informe seu estado:</label>
+                <select name="Estado" id="idEstado">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="ES">Espiríto Santo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </select>
+                <br /><br />
+                <label for="idEmail">Digite seu email:</label><br />
+                <input type="email" name="Email" id="idEmail" />
+                <br /><br />
+                <label for="idSenha">Crie uma senha:</label><br />
+                <input type="password" name="Senha" id="idSenha" />
+                <br /><br />
+                <label for="idRsenha">Repita sua senha:</label><br />
+                <input type="password" name="Rsenha" id="idRsenha" />
+                <br /><br />
+                <label for="idIdent">Anexe sua foto de identidade:</label><br />
+                <input type="file" name="Ident" id="idIdent" />
+                <br /><br />
+                <label for="idAvali">Avalie o site de 0 a 10:</label><br />
+                <input type="range" name="Avali" id="idAvali" min="0" max="10" />
+                <br /><br />
+
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <span>Contato:(31) 3694-2249 | CEP: 34002-554</span>
+        <p style="color: #ffffff; text-align: center;">Copyright &copy; 2024 AL Horizonte. Todos os direitos reservados.
+        </p>
+    </footer>
+
+</body>
+
+</html>
